@@ -1,8 +1,16 @@
 
-\documentclass[12pt,conference,onecolumn]{IEEEtran}
+\documentclass[12pt,onecolumn]{IEEEtran}
+%packages
+\usepackage{cite}
+\usepackage{gensymb}
+\usepackage{amssymb,amsmath}
+\usepackage{textcomp}
+\usepackage{csquotes}
+\usepackage{graphicx}
 \usepackage{blindtext, graphicx}
 \graphicspath{ {imgs/} }
 
+\usepackage{dblfloatfix} 
 % *** GRAPHICS RELATED PACKAGES ***
 %
 \ifCLASSINFOpdf
@@ -28,17 +36,13 @@
 
 
 \begin{document}
-
 \title{Review on \\ Towards 1 Gbps/UE in Cellular Systems: Understanding Ultra-Dense Small Cell Deployments}
-\author{\IEEEauthorblockN{Sai Narsi Reddy Donthi Reddy}
+\author{\IEEEauthorblockN{Sai Narsi Reddy Donthi Reddy}\\
 \IEEEauthorblockA{School of Computing and Engineering\\
 University of Missouri -  Kansas City\\
 Email: sdhy7@mail.umkc.edu\\
 UMKC ID: 16186610}}
-
 \maketitle
-
-\IEEEpeerreviewmaketitle
 
 
 
@@ -52,7 +56,7 @@ UMKC ID: 16186610}}
 
  \renewcommand{\theenumi}{\Roman{enumi}}
  \begin{enumerate}
-   \item Abstarct
+   \item Abstract
    \item Index Terms
    \item Introduction
    \item Small Cells in HetNets
@@ -81,23 +85,29 @@ UMKC ID: 16186610}}
 
 \section{The Problem}
 \label{sec:TP}
-It is estimated that by 2020 at least 100 folds network capasity should be increase to meet the oncoming demand. Currenty vendor and operators are implementing different techniques to improve the network capasity. To improve the network capcity, all the tools can be calssified into three categories as show in figure - \ref{fig:NWCP}
+It is estimated that by 2020 at least 100 folds network capacity should be increase to meet the oncoming demand. Currently, vendors and operators are implementing different technologies to improve the network capacity. All the existing tools can be classified into three categories as show in figure - \ref{fig:NWCP}. First, increasing spatial reuse by network densification  which is been done by increasing type-2 small cells in a type-1 macro cells (HetNet architecture). Second, By exploring higher spectrum frequencies which gives higher bandwidth per cell. And lastly, more spectral efficiency by using multi-antenna system, dynamic TDD etc,. However, these improvements are not enough to meet the future demand. Due to large difference in transmission power between macro cell and co-channel small cell (Type-2 cells), UE's tend to connect to macro cell base station (BS) rather than high speed small cell. When it comes to spectrum frequency bands, the current generation still uses spectrum frequencies in range of 1-2Ghz. These, spectrum frequency ranges have very low bandwidth and results in lower data rates.
 
 \begin{figure}[ht]
-\includegraphics[scale=0.2]{nwcp_class}
+\includegraphics[scale=0.3]{nwcp_class}
 \centering
 \caption{Three categories of existing tools to improve Network capacity.}
 \label{fig:NWCP}
 \end{figure}
 
-In the early days of wireless communication systems, voice service is the most popular service which requires only tens of Kbps per user equipment (UE). However, these days video steaming is the most popular service requiring tens of Mbps per UE. In future, these demands will go up dude to increase in usage of more internet of things (IOT) applications, with rapid advancements in virtual reality and augmented reality, autonomus driving systems and higher resolution multimedia services (example 4k, 8k resolutions) etc., Which require networks capable of handeling more number of UE's and high data transfer rates at higher energy efficiency. 
-
+It is important to address these issue as in coming years with the increase in number of UE's and necessary high speed data, the current generation wireless technologies are not capable of handling theses trends. These problems can be overcome by using better network densification techniques, higher frequency spectrum and spectral efficiency techniques which are discuss in section - \ref{sec:TC}.
 
 
 \section{The Application}
 \label{sec:TA}
 
-\section{The Categories}
+In the early days of wireless communication systems, voice service is the most demanding service with requirements of tens of Kbps per user equipment (UE). However, these days video steaming is the service with high demand requiring tens of Mbps per UE ~\cite{stream_vid}. 
+In future, with increase internet of things (IOT) applications such as home automation, monitoring, infrastructure management and autonomous cars etc., the number of UE count increase drastically. 
+With the rapid growth in virtual reality (VR) and augmented reality (AR) the requirement for low latency data increase in the gaming applications. 
+The streming media services are moving towards higher resolution technologies such as 4K and 8K resolutions require very high data rates ~\cite{youtube}.
+
+The above demands can be meet only by increasing network capacity by atleast 100 folds. This can be achieved by applying modern techniques in wireless communications. Some of them are discussed in section - \ref{sec:TC}.
+
+\section{The Categories}  
 \label{sec:TC}
 
 \section{The Future}
@@ -114,15 +124,8 @@ In the early days of wireless communication systems, voice service is the most p
   \newpage
 \fi
 
-
-
-\begin{thebibliography}{1}
-\bibitem{ES} Fuqua School of Business {\em Moving average and exponential smoothing models} {\em http://people.duke.edu/~rnau/411avg.htm\#ses}.
-
-\bibitem{ES2} NIST/SEMATECH {\em e-Handbook of Statistical Methods} {\em http://www.itl.nist.gov/div898/handbook/pmc/section4/pmc432.htm}
-
-\bibitem{MWR} Wikipedia contributors {\em Regression analysis} {\em https://en.wikipedia.org/w/index.php?title=Regression\_analysis\&oldid=738229734}
-\end{thebibliography}
+\bibliographystyle{IEEEtran}
+\bibliography{biblio}
 
 \end{document}
 
