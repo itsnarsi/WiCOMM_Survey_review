@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.13)  22 SEP 2016 19:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.3.13)  23 SEP 2016 20:42
 entering extended mode
 **./main.tex
 (main.tex
@@ -411,35 +411,62 @@ ii"
 \MPnumerator=\count135
 \makeMPintoPDFobject=\count136
 \everyMPtoPDFconversion=\toks24
-) [1{C:/Users/narsi/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<imgs/nwcp_class.png, id=6, 737.00343pt x 562.35094pt>
+) <imgs/nwcp_class.png, id=1, 737.00343pt x 562.35094pt>
 File: imgs/nwcp_class.png Graphic file (type png)
 
 <use imgs/nwcp_class.png>
 Package pdftex.def Info: imgs/nwcp_class.png used on input line 91.
 (pdftex.def)             Requested size: 221.10274pt x 168.70657pt.
- (main.bbl
-Underfull \hbox (badness 7326) in paragraph at lines 32--35
+ [1{C:/Users/narsi/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] <imgs/sm
+_inter.png, id=8, 822.07124pt x 396.7322pt>
+File: imgs/sm_inter.png Graphic file (type png)
+
+<use imgs/sm_inter.png>
+Package pdftex.def Info: imgs/sm_inter.png used on input line 100.
+(pdftex.def)             Requested size: 328.82266pt x 158.69006pt.
+ [2 <./imgs/nwcp_class.png> <./imgs/sm_inter.png>]
+LaTeX Font Info:    Try loading font information for U+msa on input line 122.
+
+("C:\Users\narsi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 122.
+("C:\Users\narsi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 122.
+
+("C:\Users\narsi\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\ts1ptm.fd"
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+) (main.bbl
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ³ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no © in font ptmr7t!
+
+Underfull \hbox (badness 7326) in paragraph at lines 38--41
 []\OT1/ptm/m/n/9 Youtube. Youtube - rec-om-mended video bi-trates for up-loads.
  [On-line]. Avail-able:
  []
 
-) [2 <./imgs/nwcp_class.png>] (main.aux) ) 
+) [3] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 4301 strings out of 493634
- 63192 string characters out of 3135239
- 127833 words of memory out of 3000000
- 7653 multiletter control sequences out of 15000+200000
- 30853 words of font info for 58 fonts, out of 3000000 for 9000
+ 4376 strings out of 493634
+ 64401 string characters out of 3135239
+ 128859 words of memory out of 3000000
+ 7702 multiletter control sequences out of 15000+200000
+ 37576 words of font info for 80 fonts, out of 3000000 for 9000
  1028 hyphenation exceptions out of 8191
- 27i,6n,26p,1145b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/narsi/AppData/Local/Program
-s/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Users/narsi/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/narsi/AppData/Local/
-Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (2 pages, 119042 bytes).
+ 27i,6n,26p,988b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/narsi/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/d
+vips/fontname/8r.enc}<C:/Users/narsi/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmmi12.pfb><C:/Users/narsi/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/narsi/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Users/narsi/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (3 pages, 214226 bytes).
 PDF statistics:
- 21 PDF objects out of 1000 (max. 8388607)
+ 34 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
